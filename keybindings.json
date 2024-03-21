@@ -1,0 +1,51 @@
+[
+    {
+        // toggleActivityBar
+        "key": "f2",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {   
+        // Criar Novo Aquivo com Extensão
+        "key": "ctrl+n", // "cmd+n" on mac
+        "command": "extension.advancedNewFile",
+    },
+    {
+        // Duplica para Baixo
+        "key": "alt+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        // Duplica para Cima
+        "key": "alt+a",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        // Salva todos os arquivos
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        // Mostra o terminal
+        "key": "ctrl+'",
+        "command": "workbench.action.terminal.toggleTerminal"
+      },
+    {
+        // Comenta
+        "key": "ctrl+numpad_divide",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        // Remove o comenta original
+        "key": "ctrl+;",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        // coreto ortográfico
+        "key": "ctrl+shift+/",
+        "command": "cSpell.suggestSpellingCorrections"
+    }
+]
