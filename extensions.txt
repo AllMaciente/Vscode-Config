@@ -1,0 +1,12 @@
+miguelsolorio.min-theme
+miguelsolorio.symbols
+ms-python.vscode-pylance
+ms-python.python
+ms-python.debugpy
+formulahendry.code-runner
+streetsidesoftware.code-spell-checker
+streetsidesoftware.code-spell-checker-portuguese-brazilian
+patbenatar.advanced-new-file
+yzhang.markdown-all-in-one
+visualstudioexptteam.intellicode-api-usage-examples
+visualstudioexptteam.vscodeintellicode
