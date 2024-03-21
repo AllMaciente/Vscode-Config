@@ -3,6 +3,7 @@
         "python": "clear ; python -u"
     },
     "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
     "advancedNewFile.exclude": {
         "node_modules": true,
         "node_modules_electron": true,
