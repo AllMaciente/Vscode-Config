@@ -1,0 +1,52 @@
+{
+    "code-runner.executorMap": {
+        "python": "clear ; python -u"
+    },
+    "code-runner.runInTerminal": true,
+    "advancedNewFile.exclude": {
+        "node_modules": true,
+        "node_modules_electron": true,
+        "dev": true,
+        "dist": true
+    },
+    "advancedNewFile.showInformationMessages": true,
+    "advancedNewFile.convenienceOptions": ["last", "current", "root"],
+    "symbols.hidesExplorerArrows": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "README.md":".gitignore"
+    },
+    "breadcrumbs.enabled": false,
+    "window.zoomLevel": 0.3,
+    "window.commandCenter": false,
+    "editor.fontSize": 14,
+    "editor.rulers": [80,120],
+    "editor.renderLineHighlight": "gutter",    
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Min Dark",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerds",
+    "terminal.integrated.fontSize": 14,
+    "cSpell.language": "en,pt,pt-BR",
+    "cSpell.userWords": [
+        "acao",
+        "numpad",
+    ],
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "symbols.files.associations": {
+        "requirements.txt": "text"
+    },
+    "symbols.folders.associations": {},
+    "workbench.activityBar.location": "hidden"
+}
