@@ -10,3 +10,10 @@ patbenatar.advanced-new-file
 yzhang.markdown-all-in-one
 visualstudioexptteam.intellicode-api-usage-examples
 visualstudioexptteam.vscodeintellicode
+tomoki1207.pdf
+ms-vscode.cpptools
+danielpinto8zz6.c-cpp-compile-run
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+twxs.cmake
+ms-vscode.cmake-tools
