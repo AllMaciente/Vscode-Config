@@ -1,9 +1,10 @@
 {
     "code-runner.executorMap": {
-        "python": "clear ; python -u"
+        "python": "clear ; python -u",
     },
     "code-runner.runInTerminal": true,
     "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
     "advancedNewFile.exclude": {
         "node_modules": true,
         "node_modules_electron": true,
@@ -22,6 +23,7 @@
     "breadcrumbs.enabled": false,
     "window.zoomLevel": 0.3,
     "window.commandCenter": false,
+    "window.menuBarVisibility":"toggle",
     "editor.fontSize": 14,
     "editor.rulers": [80,120],
     "editor.renderLineHighlight": "gutter",    
@@ -41,7 +43,9 @@
     "cSpell.language": "en,pt,pt-BR",
     "cSpell.userWords": [
         "acao",
-        "numpad",
+        "Boleano",
+        "chcp",
+        "numpad"
     ],
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
@@ -49,5 +53,6 @@
         "requirements.txt": "text"
     },
     "symbols.folders.associations": {},
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "hidden",
+    "explorer.confirmPasteNative": false,
 }
