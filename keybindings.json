@@ -1,7 +1,7 @@
 [
     {
         // toggleActivityBar
-        "key": "f2",
+        "key": "ctrl+f2",
         "command": "workbench.action.toggleActivityBarVisibility"
     },
     {   
@@ -47,5 +47,9 @@
         // coreto ortográfico
         "key": "ctrl+shift+/",
         "command": "cSpell.suggestSpellingCorrections"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-extension.advancedNewFile"
     }
 ]
