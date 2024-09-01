@@ -1,58 +1,64 @@
 {
-    "code-runner.executorMap": {
-        "python": "clear ; python -u",
-    },
-    "code-runner.runInTerminal": true,
-    "code-runner.ignoreSelection": true,
-    "code-runner.saveFileBeforeRun": true,
-    "advancedNewFile.exclude": {
-        "node_modules": true,
-        "node_modules_electron": true,
-        "dev": true,
-        "dist": true
-    },
-    "advancedNewFile.showInformationMessages": true,
-    "advancedNewFile.convenienceOptions": ["last", "current", "root"],
-    "symbols.hidesExplorerArrows": false,
-    "explorer.confirmDelete": false,
-    "explorer.compactFolders": false,
-    "explorer.fileNesting.enabled": true,
-    "explorer.fileNesting.patterns": {
-        "README.md":".gitignore"
-    },
-    "breadcrumbs.enabled": false,
-    "window.zoomLevel": 0.3,
-    "window.commandCenter": false,
-    "window.menuBarVisibility":"toggle",
-    "editor.fontSize": 14,
-    "editor.rulers": [80,120],
-    "editor.renderLineHighlight": "gutter",    
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.vertical": "hidden",
-    "editor.scrollbar.horizontal": "hidden",
-    "workbench.iconTheme": "symbols",
-    "workbench.colorTheme": "Min Dark",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.labelFormat": "short",
-    "workbench.statusBar.visible": false,
-    "workbench.layoutControl.enabled": false,
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerds",
-    "terminal.integrated.fontSize": 14,
-    "cSpell.language": "en,pt,pt-BR",
-    "cSpell.userWords": [
-        "acao",
-        "Boleano",
-        "chcp",
-        "numpad"
-    ],
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "symbols.files.associations": {
-        "requirements.txt": "text"
-    },
-    "symbols.folders.associations": {},
-    "workbench.activityBar.location": "hidden",
-    "explorer.confirmPasteNative": false,
+  "window.zoomLevel": 0,
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
+
+  "workbench.iconTheme": "vscode-allicon-theme",
+  "workbench.colorTheme": "AllTheme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  /*tem como ser asesado com ctrl+q*/
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "explorer.compactFolders": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+
+  "breadcrumbs.enabled": false,
+
+  "apc.listRow": {
+    "height": 23
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.electron": {
+    "titleBarStyle": "hidden",
+    "frame": false
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "cSpell.language": "en,pt-BR",
+  "code-runner.executorMap": {
+    "python": "clear ; python",
+    "javascript": "clear ; node"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true
 }
